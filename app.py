@@ -278,7 +278,6 @@ print(f"MAE: {mae:.2f}")
 print(f"RMSE: {rmse:.2f}")
 print(f"R² Score: {r2:.4f}")
 
-pip install xgboost
 
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
