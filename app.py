@@ -322,7 +322,6 @@ print(f"MAE (Mean Absolute Error): {mae:.2f}")
 print(f"RMSE (Root Mean Squared Error): {rmse:.2f}")
 print(f"R² Score: {r2:.4f}")
 
-pip install lightgbm
 
 import pandas as pd
 import numpy as np
