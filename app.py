@@ -829,7 +829,7 @@ import seaborn as sns
 # Load cleaned data
 @st.cache_data
 def load_data():
-    return pd.read_csv("df_cleaned.csv")
+    return pd.read_csv("df_cleaned_sample.csv")
 
 df = load_data()
 
