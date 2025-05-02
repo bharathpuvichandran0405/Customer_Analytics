@@ -9,7 +9,6 @@ Original file is located at
 
 
 
-df.head()
 
 print(df.isnull().sum())
 
