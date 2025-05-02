@@ -10,7 +10,6 @@ Original file is located at
 
 
 
-print(df.isnull().sum())
 
 # Drop the rows where Customer ID is missing
 df_cleaned = df.dropna(subset=['Customer ID'])
