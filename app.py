@@ -7,11 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/103oxLA3VtvYAiM2svmYoTwNimVJhnUJw
 """
 
-import pandas as pd
 
-# Load the dataset
-dataset = "/content/online_retail_II.xlsx"
-df = pd.read_excel(dataset, sheet_name=0)
 
 df.head()
 
